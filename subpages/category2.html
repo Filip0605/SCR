@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8" />
+    <title>Zagadkowe sieci</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/icon.png" />
+    <script>
+        function showAnswer1() {
+            alert("8 minut.");
+        }
+    </script>
+    <script>
+        function showAnswer2() {
+            alert("Stolik na trzech nogach się nie chwieje.");
+        }
+    </script>
+    <script>
+        function showAnswer3() {
+            alert("Tylko jeden, ten zabity. Pozostałe uciekły.");
+        }
+    </script>
+    <script>
+        function showAnswer4() {
+            alert("Po 11 tygodniach.")
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="../img/logo.png" alt="" />
+            </div>
+            <ul class="navbar">
+                <li class="navbutton"><a id="navbtn" href="../index.html">Strona główna</a></li>
+                <li class="navbutton"><a id="navbtn" href="category1.html">Matematyczne</a></li>
+                <li class="navbutton"><a id="navbtn" href="category2.html">Logiczne</a></li>
+                <li class="navbutton"><a id="navbtn" href="category3.html">Śmieszne</a></li>
+                <li class="navbutton"><a id="navbtn" href="category4.html">Na inteligencję</a></li>
+            </ul>
+        </nav>
+        <section class="contain">
+            <div class="header">
+                <div class="text">
+                    <h1 class="top">Zagadki logiczne</h1>
+                    <p class="content">Zagadki rozwijają kreatywność oraz logiczne myślenie już od najmłodszych lat. Rozwiązywanie zagadek dostarcza wiele radości i satysfakcji niezależnie od wieku. To bardzo prosty sposób trenowania naszego mózgu.</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="puzzle1">
+                    <p class="puzzle">Jajko gotuje się na twardo przez osiem minut. Jak długo trzeba gotować na twardo cztery jajka?</p>
+                    <button class="answer" type="button" onclick="showAnswer1()">Odpowiedź</button>
+                </div>
+                <div class="puzzle2">
+                    <p class="puzzle">W restauracji ze stolika na trzech nogach spadł na podłogę kieliszek i rozbił się. Gość, któremu zdarzył się ów incydent twierdził, że to wina chybotliwego stolika. Skąd właściciel wiedział, że gość kłamie?</p>
+                    <button class="answer" type="button" onclick="showAnswer2()">Odpowiedź</button>
+                </div>
+                <div class="puzzle3">
+                    <p class="puzzle">Pięć królików bawiło się na łące. Nadszedł myśliwy i zabił jednego z nich. Ile królików pozostało na łące?</p>
+                    <button class="answer" type="button" onclick="showAnswer3()">Odpowiedź</button>
+                </div>
+                <div class="puzzle4">
+                    <p class="puzzle">Hania i Eliza mają w ogrodzie błyskawicznie rosnący słonecznik. Co tydzień podwaja on swoją wysokość i po 12 tygodniach ma już 12 metrów. Po ilu tygodniach słonecznik będzie miał 6 metrów wysokości?</p>
+                    <button class="answer" type="button" onclick="showAnswer4()">Odpowiedź</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <ul class="foot">
+                <li class="info">Copyright &copy;</li>
+                <li class="info">2018</li>
+                <li class="info">Filip Majszczyk</li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

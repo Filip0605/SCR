@@ -1,0 +1,249 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Raleway;
+    height: 100%;
+    margin: 0;
+    pading: 0;
+}
+/* Fade in*/
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+/* End of fade in*/
+
+.container {
+    height: auto;
+    margin: 0;
+    min-width: 1280px;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
+}
+
+a#navbtn {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav {
+    margin: 0 240px 0 240px;
+}
+
+nav .logo {
+    display: inline-block;
+    float: left;
+    width: 244px;
+}
+
+nav .navbar {
+    text-align: center;
+    padding-right: 0;
+}
+nav .navbar .navbutton {
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 12px 17px;
+    text-transform: uppercase;
+}
+
+a:hover#navbtn {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+section {
+    display: block;
+    height: auto;
+}
+
+.contain {
+    height: auto;
+}
+
+.container {
+    height: 100%;
+}
+
+.content {
+    height: 1060px;
+}
+.container .header {
+    background-image: url("img/header.jpg");
+    color: #ffffff;
+    height: 350px;
+}
+
+/*@media only screen and (max-width: 1400px) {
+    .container .header .text {
+        border: 3px solid #ffffff;
+        display: inline-block;
+        margin: 60px 240px 60px 240px;
+        padding: 5px 100px 5px 20px; 
+    }
+
+    h1.top {
+        font-size: 26px;
+        text-transform: uppercase;
+    }
+
+    p.content {
+        font-size: 16px;
+    }
+}*/
+
+p.content {
+    margin-bottom: 0;
+    max-height: 85px;
+    padding-bottom: 0;
+}
+
+.container .header .text {
+    border: 3px solid #ffffff;
+    display: inline-block;
+    font-size: 20px;
+    margin: 30px 240px;
+    padding: 60px 455px 60px 115px;
+}
+
+h1.top {
+    font-size: 42px;
+    margin-top: 0;
+}
+
+.container .content .puzzle1 {
+    background-image: url("img/column-left.jpg");
+    display: inline-block;
+    float: left;
+    height: 480px;
+    margin: 50px auto 50px 265px;
+    padding: 0;
+    width: 670px;
+}
+
+.container .content .puzzle2 {
+    background-image: url("img/column-right.jpg");
+    display: inline-block;
+    float: right;
+    height: 480px;
+    margin: 50px 265px 50px auto;
+    padding: 0;
+    width: 670px;
+}
+
+.container .content .puzzle3 {
+    background-image: url("img/bottom-left.jpg");
+    display: inline-block;
+    float: left;
+    height: 480px;
+    margin: 0px auto 50px 265px;
+    padding: 0;
+    width: 670px;
+}
+
+.container .content .puzzle4 {
+    background-image: url("img/bottom-right.jpg");
+    display: inline-block;
+    float: right;
+    height: 480px;
+    margin: 0px 265px 50px auto;
+    padding: 0;
+    width: 670px;
+}
+
+p.puzzle {
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-size: 30px;
+    height: 225px;
+    margin: 40px 60px auto 60px;
+    padding: 20px;
+    text-align: center;
+}
+
+.answer {
+    background-color: #333232;
+    border: none;
+    color: #ffffff;
+    font-size: 26px;
+    margin: 60px 180px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+}
+
+.answer:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+footer {
+    background-color: #333232;
+    bottom: 0;
+    color: #c8c6c6;
+    display: block;
+    font-size: 14px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+li.info {
+    display: inline-block;
+    padding: 20px 5px 20px 0;
+}

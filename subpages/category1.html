@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8" />
+    <title>Zagadkowe sieci</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/icon.png" />
+    <script>
+        function showAnswer1() {
+            alert("8,26 cm.");
+        }
+    </script>
+    <script>
+        function showAnswer2() {
+            alert("Butelka kosztuje 1,05 zł, korek 5 groszy.");
+        }
+    </script>
+    <script>
+        function showAnswer3() {
+            alert("Również 3 minuty.");
+        }
+    </script>
+    <script>
+        function showAnswer4() {
+            alert("Brat waży 120 kg. Wagę obliczamy w następujący sposób: x = 60 + 1/2x.")
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="../img/logo.png" alt="" />
+            </div>
+            <ul class="navbar">
+                <li class="navbutton"><a id="navbtn" href="../index.html">Strona główna</a></li>
+                <li class="navbutton"><a id="navbtn" href="category1.html">Matematyczne</a></li>
+                <li class="navbutton"><a id="navbtn" href="category2.html">Logiczne</a></li>
+                <li class="navbutton"><a id="navbtn" href="category3.html">Śmieszne</a></li>
+                <li class="navbutton"><a id="navbtn" href="category4.html">Na inteligencję</a></li>
+            </ul>
+        </nav>
+        <section class="contain">
+            <div class="header">
+                <div class="text">
+                    <h1 class="top">Zagadki matematyczne</h1>
+                    <p class="content">Zagadki rozwijają kreatywność oraz logiczne myślenie już od najmłodszych lat. Rozwiązywanie zagadek dostarcza wiele radości i satysfakcji niezależnie od wieku. To bardzo prosty sposób trenowania naszego mózgu.</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="puzzle1">
+                    <p class="puzzle">25 metrów wstążki o grubości 0,1 mm nawinięto ściśle na rurkę kartonową, otrzymując wałek o średnicy 1 dm. Jaka jest średnica rurki?</p>
+                    <button class="answer" type="button" onclick="showAnswer1()">Odpowiedź</button>
+                </div>
+                <div class="puzzle2">
+                    <p class="puzzle">Butelka z korkiem kosztuje 1,10 zł. Butelka jest droższa o 1 zł od korka. Ile kosztuje butelka, a ile korek?</p>
+                    <button class="answer" type="button" onclick="showAnswer2()">Odpowiedź</button>
+                </div>
+                <div class="puzzle3">
+                    <p class="puzzle">3 koty złapały 3 myszy w ciągu 3 minut. Jak długo 999 kotów złapie 999 myszy?</p>
+                    <button class="answer" type="button" onclick="showAnswer3()">Odpowiedź</button>
+                </div>
+                <div class="puzzle4">
+                    <p class="puzzle">Ciężar ciała mojago brata stanowi sumę 60 kg plus połowę jego wagi. Ile waży mój brat?</p>
+                    <button class="answer" type="button" onclick="showAnswer4()">Odpowiedź</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <ul class="foot">
+                <li class="info">Copyright &copy;</li>
+                <li class="info">2018</li>
+                <li class="info">Filip Majszczyk</li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
