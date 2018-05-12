@@ -6,6 +6,26 @@
     <link href="../style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
     <link rel="icon" type="image/png" sizes="16x16" href="../img/icon.png" />
+    <script>
+        function showAnswer1() {
+            alert("Nigdy. Za każdym razem spłaci mu połowę należności i pozostanie druga połowa.");
+        }
+    </script>
+    <script>
+        function showAnswer2() {
+            alert("15 zł. Cenę ustala liczba samogłosek. Każda samogłoska kosztuje 3 zł.");
+        }
+    </script>
+    <script>
+        function showAnswer3() {
+            alert("Tylko raz, gdyż sznurek nie ma już 100, lecz tylko 99 metrów długości.");
+        }
+    </script>
+    <script>
+        function showAnswer4() {
+            alert("To jest twój ojciec.")
+        }
+    </script>
 </head>
 <body>
     <div class="container">
@@ -30,16 +50,20 @@
             </div>
             <div class="content">
                 <div class="puzzle1">
-
+                    <p class="puzzle">Janek pożyczył od kolegi 100 zł i obiecał mu, że co tydzień spłaci mu połowę długu. W pierwszym tygodniu zwrócił więc 50 zł, w drugim 25 itd. Kiedy spłaci całą należność?</p>
+                    <button class="answer" type="button" onclick="showAnswer1()">Odpowiedź</button>
                 </div>
                 <div class="puzzle2">
-
+                    <p class="puzzle">Chleb kosztuje 3 zł, masło 6 zł, oranżada 12 zł, a cukier 9 zł. Ile kosztują papierosy?</p>
+                    <button class="answer" type="button" onclick="showAnswer2()">Odpowiedź</button>
                 </div>
                 <div class="puzzle3">
-
+                    <p class="puzzle">Ile razy można obciąć po jednym metrze ze 100-metrowego sznurka?</p>
+                    <button class="answer" type="button" onclick="showAnswer3()">Odpowiedź</button>
                 </div>
                 <div class="puzzle4">
-
+                    <p class="puzzle">Jakie pokrewieństwo łączy cię z mężczyzną, którego matka jest teściową twojej matki ?</p>
+                    <button class="answer" type="button" onclick="showAnswer4()">Odpowiedź</button>
                 </div>
             </div>
         </section>
@@ -48,6 +72,8 @@
                 <li class="info">Copyright &copy;</li>
                 <li class="info">2018</li>
                 <li class="info">Filip Majszczyk</li>
+                <li class="info">Piotr Walczyk</li>
+                <li class="info">Marek Rutkowski</li>
             </ul>
         </footer>
     </div>
